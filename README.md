@@ -52,6 +52,21 @@ def mcdonalds(request):
 def tz(request):
     return render(request,'timezone.html')
 ```
+design.css
+```
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+img
+{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;  
+}
+```
 imagemap.html
 ```
 {% load static %}
