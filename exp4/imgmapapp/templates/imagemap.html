@@ -1,0 +1,15 @@
+{% load static %}
+<html lang="en">
+<head>
+    <title>VR MALL CHENNAI</title>  
+</head>
+<body>
+    <img src="{% static 'Image Map.png' %}" alt="Map Not Found" usemap="#image-map">
+    <map name="image-map">
+        <area shape="rect" coords="854,671,685,616" title="Manyavar" href="{% url 'man' %}">
+        <area shape="rect" coords="732,178,936,238" title="BlueStone Jewellery" href="{% url 'bluestone' %}">
+        <area shape="rect" coords="1204,371,1367,430" title="McDonald's" href="{% url 'mcd' %}">    
+        <area shape="rect" coords="887,102,1080,150" title="Timezone" href="{% url 'timezone' %}">  
+    </map>
+</body>
+</html>
